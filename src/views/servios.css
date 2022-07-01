@@ -1,0 +1,187 @@
+.servios-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.servios-content {
+  flex: 0 0 auto;
+  width: 95%;
+  display: flex;
+  position: relative;
+  max-width: 1320px;
+  box-shadow: 0px 10px 15px -10px #626262;
+  margin-top: -100px;
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-color: var(--dl-color-secondary-300);
+}
+.servios-icon {
+  top: -2rem;
+  flex: 0 0 auto;
+  left: auto;
+  right: auto;
+  width: 4rem;
+  bottom: auto;
+  height: 4rem;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-pimary-500);
+}
+.servios-icon1 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.servios-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.servios-container2 {
+  width: 100%;
+  display: flex;
+  max-width: 1320px;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.servios-text {
+  font-style: normal;
+  font-weight: 700;
+}
+.servios-text2 {
+  color: var(--dl-color-gray-white);
+}
+.servios-text3 {
+  width: 80%;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0.25rem;
+}
+.servios-text4 {
+  white-space: normal;
+}
+.servios-services {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.servios-container3 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.servios-container4 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f5f9ff;
+}
+.servios-icon3 {
+  width: 24px;
+  height: 24px;
+}
+.servios-text5 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-unitandhalf);
+  font-weight: 600;
+}
+.servios-text6 {
+  color: rgba(100,116,139,1);
+  font-size: 1.25rem;
+  text-align: center;
+}
+.servios-container5 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.servios-container6 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f5f9ff;
+}
+.servios-icon5 {
+  width: 24px;
+  height: 24px;
+}
+.servios-text7 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-unitandhalf);
+  font-weight: 600;
+}
+.servios-text8 {
+  color: rgba(100,116,139,1);
+  font-size: 1.25rem;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .servios-container1 {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .servios-container2 {
+    width: 100%;
+  }
+  .servios-services {
+    align-items: center;
+    flex-direction: column;
+  }
+  .servios-container3 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .servios-container5 {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 479px) {
+  .servios-text2 {
+    text-align: center;
+  }
+}
