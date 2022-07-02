@@ -133,7 +133,7 @@ const Home = (props) => {
               <div className="home-container11">
                 <img
                   alt="image"
-                  src="/playground_assets/blue_wave.svg"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="home-image2"
                 />
               </div>

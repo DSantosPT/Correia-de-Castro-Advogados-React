@@ -16,6 +16,7 @@
   margin-top: -100px;
   padding-left: var(--dl-space-space-tripleunit);
   border-radius: var(--dl-radius-radius-radius75);
+  margin-bottom: var(--dl-space-space-doubleunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-color: var(--dl-color-secondary-300);
@@ -56,17 +57,19 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-twoandhalf);
+  padding-top: var(--dl-space-space-unitandhalf);
+  padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius50);
-  padding-right: var(--dl-space-space-twoandhalf);
+  padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-twoandhalf);
+  padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-pimary-800);
 }
 .contactos-text {
   color: var(--dl-color-secondary-400);
-  align-self: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 .contactos-container3 {
   flex: 0 0 auto;
@@ -170,9 +173,6 @@
   margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
 }
-.contactos-link4 {
-  display: contents;
-}
 .contactos-horrio {
   flex: 0 0 auto;
   height: auto;
@@ -192,4 +192,9 @@
   align-self: center;
   margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
+}
+@media(max-width: 479px) {
+  .contactos-text {
+    text-align: left;
+  }
 }

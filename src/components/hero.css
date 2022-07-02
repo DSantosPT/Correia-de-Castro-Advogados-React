@@ -36,5 +36,12 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-black);
 }
-
-
+.hero-root-class-name {
+  background-image: url("/playground_assets/quemsomos-bg-200h.jpeg");
+}
+.hero-root-class-name1 {
+  background-image: url("/playground_assets/servicos-bg-200h.jpeg");
+}
+.hero-root-class-name2 {
+  background-image: url("/playground_assets/contact-bg-200h.jpeg");
+}

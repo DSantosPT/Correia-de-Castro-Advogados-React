@@ -18,7 +18,10 @@ const Contactos = (props) => {
           content="Contactos - Correia de Castro Advogados"
         />
       </Helmet>
-      <Hero heading="Contactos"></Hero>
+      <Hero
+        heading="Contactos e Localização"
+        rootClassName="hero-root-class-name2"
+      ></Hero>
       <div className="contactos-content">
         <div className="contactos-icon">
           <svg
@@ -33,7 +36,7 @@ const Contactos = (props) => {
             <h1 className="contactos-text">Onde estamos</h1>
             <div className="contactos-container3">
               <a
-                href="https://www.google.com/maps/place/Av.+da+Rep%C3%BAblica+740+s+21,+4430-190+Vila+Nova+de+Gaia/@41.1318242,-8.6092719,17z/data=!4m5!3m4!1s0xd2464dae3222f61:0xa41e4ad181325374!8m2!3d41.1318242!4d-8.6070832"
+                href="https://goo.gl/maps/9aq4Q6CZq24V9qPaA"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contactos-link"
@@ -104,27 +107,25 @@ const Contactos = (props) => {
                   </h1>
                 </div>
               </a>
-              <a href="#contact-form" className="contactos-link4">
-                <div className="contactos-horrio">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="contactos-icon11"
-                  >
-                    <path d="M512 310.857v256c0 10.286-8 18.286-18.286 18.286h-182.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h128v-201.143c0-10.286 8-18.286 18.286-18.286h36.571c10.286 0 18.286 8 18.286 18.286zM749.714 512c0-171.429-139.429-310.857-310.857-310.857s-310.857 139.429-310.857 310.857 139.429 310.857 310.857 310.857 310.857-139.429 310.857-310.857zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <h1 className="contactos-text10 textMD">
-                    <span>
-                      Segunda a sexta:
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span>09:30 às 19:00</span>
-                  </h1>
-                </div>
-              </a>
+              <div className="contactos-horrio">
+                <svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  className="contactos-icon11"
+                >
+                  <path d="M512 310.857v256c0 10.286-8 18.286-18.286 18.286h-182.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h128v-201.143c0-10.286 8-18.286 18.286-18.286h36.571c10.286 0 18.286 8 18.286 18.286zM749.714 512c0-171.429-139.429-310.857-310.857-310.857s-310.857 139.429-310.857 310.857 139.429 310.857 310.857 310.857 310.857-139.429 310.857-310.857zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                </svg>
+                <h1 className="contactos-text10 textMD">
+                  <span>
+                    Segunda a sexta:
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>09:30 às 19:00</span>
+                </h1>
+              </div>
             </div>
             <Map rootClassName="map-root-class-name"></Map>
           </div>
