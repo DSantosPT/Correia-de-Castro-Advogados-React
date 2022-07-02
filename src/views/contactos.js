@@ -92,7 +92,7 @@ const Contactos = (props) => {
                 </div>
               </a>
               <a
-                href="mailto:correia.castro58@gmail.com?subject=Contacto Website"
+                href="mailto:Correia de Castro Advogados &lt;correia.castro58@gmail.com&gt;?subject=Contacto Website"
                 className="contactos-link3"
               >
                 <div className="contactos-email">
