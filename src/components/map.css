@@ -13,3 +13,9 @@
   height: 100%;
   align-self: center;
 }
+
+@media(max-width: 1200px) {
+  .map-root-class-name {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+}
