@@ -1,5 +1,6 @@
 import React from 'react'
 
+import ContactLinks from './contact-links'
 import './footer.css'
 
 const Footer = (props) => {
@@ -8,10 +9,10 @@ const Footer = (props) => {
       <div className="footer-container01">
         <div className="footer-container02">
           <h1 className="footer-text textXL">
-            <span>Let&apos;s keep in touch</span>
+            <span>Obrigado pela visita</span>
           </h1>
           <span className="footer-text02">
-            Find out on any of these platforms, we respond 1-2 business days.
+            <span>Aguardamos o seu contacto</span>
           </span>
           <div className="footer-container03">
             <div className="footer-container04">
@@ -44,24 +45,25 @@ const Footer = (props) => {
         </div>
         <div className="footer-container08">
           <div className="footer-container09">
-            <span className="footer-text03 textXS">USEFUL LINK</span>
-            <span className="footer-text04 textSM">About Us</span>
-            <span className="footer-text05 textSM">Blog</span>
-            <span className="footer-text06 textSM">Github</span>
-            <span className="footer-text07 textSM">Free Products</span>
+            <span className="footer-text04 textXS">USEFUL LINK</span>
+            <span className="footer-text05 textSM">About Us</span>
+            <span className="footer-text06 textSM">Blog</span>
+            <span className="footer-text07 textSM">Github</span>
+            <span className="footer-text08 textSM">Free Products</span>
           </div>
           <div className="footer-container10">
-            <span className="footer-text08 textXS">OTHER RESOURCES</span>
-            <span className="footer-text09 textSM">License</span>
-            <span className="footer-text10 textSM">Terms &amp; Conditions</span>
-            <span className="footer-text11 textSM">Privacy Policy</span>
-            <span className="footer-text12 textSM">Contact Us</span>
+            <span className="footer-text09 textXS">OTHER RESOURCES</span>
+            <span className="footer-text10 textSM">License</span>
+            <span className="footer-text11 textSM">Terms &amp; Conditions</span>
+            <span className="footer-text12 textSM">Privacy Policy</span>
+            <span className="footer-text13 textSM">Contact Us</span>
           </div>
         </div>
       </div>
+      <ContactLinks rootClassName="contact-links-root-class-name"></ContactLinks>
       <div className="footer-container11"></div>
-      <span className="footer-text13 textSM">
-        Copyright © 2021 Notus PRO React by Creative Tim.
+      <span className="footer-text14 textSM">
+        <span>Copyright © 2022 Correia de Castro Advogados</span>
       </span>
     </div>
   )

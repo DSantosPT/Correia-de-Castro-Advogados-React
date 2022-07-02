@@ -40,7 +40,7 @@
   justify-content: center;
   background-color: var(--dl-color-pimary-500);
 }
-.contactos-icon01 {
+.contactos-icon1 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
@@ -63,135 +63,13 @@
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-pimary-800);
+  background-color: var(--dl-color-gray-white);
 }
 .contactos-text {
   color: var(--dl-color-secondary-400);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 2rem;
-}
-.contactos-container3 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  margin-top: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius50);
-  margin-bottom: var(--dl-space-space-halfunit);
-  flex-direction: column;
-}
-.contactos-link {
-  display: contents;
-}
-.contactos-localizao {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-}
-.contactos-icon03 {
-  fill: var(--dl-color-secondary-500);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-}
-.contactos-text01 {
-  fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  text-transform: none;
-}
-.contactos-link1 {
-  display: contents;
-}
-.contactos-telemvel {
-  flex: 0 0 auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-}
-.contactos-icon05 {
-  fill: var(--dl-color-secondary-500);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-}
-.contactos-text04 {
-  fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  text-transform: none;
-}
-.contactos-link2 {
-  display: contents;
-}
-.contactos-telefone {
-  flex: 0 0 auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-}
-.contactos-icon07 {
-  fill: var(--dl-color-secondary-500);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-}
-.contactos-text06 {
-  fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  text-transform: none;
-}
-.contactos-link3 {
-  display: contents;
-}
-.contactos-email {
-  flex: 0 0 auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-}
-.contactos-icon09 {
-  fill: var(--dl-color-secondary-500);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-}
-.contactos-text08 {
-  fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  text-transform: none;
-}
-.contactos-horrio {
-  flex: 0 0 auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-}
-.contactos-icon11 {
-  fill: var(--dl-color-secondary-500);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-}
-.contactos-text10 {
-  fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  text-transform: none;
 }
 @media(max-width: 479px) {
   .contactos-text {

@@ -16,6 +16,7 @@
   margin-top: -100px;
   padding-left: var(--dl-space-space-tripleunit);
   border-radius: var(--dl-radius-radius-radius75);
+  margin-bottom: var(--dl-space-space-doubleunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-color: var(--dl-color-secondary-300);
@@ -48,13 +49,9 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  position: relative;
-  align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: flex-start;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
 }
 .servios-container2 {
   width: 100%;
