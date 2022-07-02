@@ -16,18 +16,9 @@
   border-radius: var(--dl-radius-radius-round);
 }
 .team-element-container1 {
-  flex: 0 0 auto;
-  display: flex;
-  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
   margin-top: 75px;
   align-items: center;
   padding-top: 75px;
-  border-color: var(--dl-color-gray-900);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius75);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-white);
 }
 .team-element-text {
   color: var(--dl-color-secondary-300);

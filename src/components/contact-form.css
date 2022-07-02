@@ -3,17 +3,6 @@
   position: relative;
   flex-direction: column;
 }
-.contact-form-form {
-  flex: 0 0 auto;
-  display: flex;
-  padding-top: var(--dl-space-space-unitandhalf);
-  padding-left: var(--dl-space-space-twoandhalf);
-  border-radius: var(--dl-radius-radius-radius50);
-  padding-right: var(--dl-space-space-twoandhalf);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twoandhalf);
-  background-color: var(--dl-color-gray-white);
-}
 .contact-form-text {
   color: var(--dl-color-secondary-400);
   font-size: 1.5rem;

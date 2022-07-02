@@ -19,7 +19,7 @@ const Quemsomos = (props) => {
         />
       </Helmet>
       <Hero heading="Quem Somos" rootClassName="hero-root-class-name"></Hero>
-      <div className="quemsomos-content">
+      <div className="card">
         <div className="quemsomos-icon">
           <svg viewBox="0 0 1152 1024" className="quemsomos-icon1">
             <path d="M768 770.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
@@ -28,8 +28,8 @@ const Quemsomos = (props) => {
         </div>
         <div className="quemsomos-container01">
           <div className="quemsomos-container02">
-            <div className="quemsomos-container03">
-              <a href="#member1" className="quemsomos-link">
+            <div className="quemsomos-container03 card-content">
+              <a href="#member1">
                 <div className="quemsomos-container04">
                   <MemberDetails
                     image_src="/playground_assets/team1-200h.jpg"
@@ -37,7 +37,7 @@ const Quemsomos = (props) => {
                   ></MemberDetails>
                 </div>
               </a>
-              <a href="#member2" className="quemsomos-link1">
+              <a href="#member2">
                 <div className="quemsomos-container05">
                   <MemberDetails
                     heading1="Romina Hadid"
@@ -46,7 +46,7 @@ const Quemsomos = (props) => {
                   ></MemberDetails>
                 </div>
               </a>
-              <a href="#member3" className="quemsomos-link2">
+              <a href="#member3">
                 <div className="quemsomos-container06">
                   <MemberDetails
                     heading1="Alexa Smith"

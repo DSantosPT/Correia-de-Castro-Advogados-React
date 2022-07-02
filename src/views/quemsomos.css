@@ -8,21 +8,6 @@
   justify-content: flex-start;
   background-color: #f2f5f9ff;
 }
-.quemsomos-content {
-  flex: 0 0 auto;
-  width: 95%;
-  display: flex;
-  position: relative;
-  max-width: 1320px;
-  box-shadow: 0px 10px 15px -10px #626262;
-  margin-top: -100px;
-  padding-left: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-radius75);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: column;
-  background-color: var(--dl-color-secondary-300);
-}
 .quemsomos-icon {
   top: -2rem;
   flex: 0 0 auto;
@@ -65,20 +50,8 @@
   flex-direction: column;
 }
 .quemsomos-container03 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  padding-top: var(--dl-space-space-unitandhalf);
-  padding-left: var(--dl-space-space-doubleunit);
-  border-radius: var(--dl-radius-radius-radius50);
   margin-bottom: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-doubleunit);
   flex-direction: row;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-white);
-}
-.quemsomos-link {
-  display: contents;
 }
 .quemsomos-container04 {
   width: 50%;
@@ -90,9 +63,6 @@
   justify-content: center;
   text-decoration: none;
 }
-.quemsomos-link1 {
-  display: contents;
-}
 .quemsomos-container05 {
   width: 50%;
   display: flex;
@@ -102,9 +72,6 @@
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
-}
-.quemsomos-link2 {
-  display: contents;
 }
 .quemsomos-container06 {
   width: 50%;

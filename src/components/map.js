@@ -22,12 +22,10 @@ const Map = (props) => {
 }
 
 Map.defaultProps = {
-  initMap: () => {},
   rootClassName: '',
 }
 
 Map.propTypes = {
-  initMap: PropTypes.func,
   rootClassName: PropTypes.string,
 }
 

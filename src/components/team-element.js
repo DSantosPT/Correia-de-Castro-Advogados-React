@@ -8,7 +8,7 @@ const TeamElement = (props) => {
   return (
     <div className={`team-element-container ${props.rootClassName} `}>
       <img alt="image" src={props.Imagem} className="team-element-image" />
-      <div className="team-element-container1">
+      <div className="team-element-container1 card-content">
         <h3 className="team-element-text text2XL">{props.Nome}</h3>
         <div className="team-element-container2">
           <svg viewBox="0 0 1024 1024" className="team-element-icon">
