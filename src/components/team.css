@@ -304,27 +304,6 @@
   margin-top: var(--dl-space-space-tripleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-@media(max-width: 767px) {
-  .team-container {
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .team-container01 {
-    width: 50%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .team-container06 {
-    width: 50%;
-    padding-bottom: var(--dl-space-space-tripleunit);
-  }
-  .team-container10 {
-    width: 50%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .team-container15 {
-    width: 50%;
-  }
-}
 @media(max-width: 479px) {
   .team-container {
     align-items: center;

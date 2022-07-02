@@ -113,27 +113,6 @@
   font-size: 1.25rem;
   text-align: center;
 }
-@media(max-width: 991px) {
-  .services-section3 {
-    padding-left: var(--dl-space-space-doubleunit);
-    padding-right: var(--dl-space-space-doubleunit);
-  }
-  .services-container {
-    width: 100%;
-  }
-  .services-services {
-    align-items: center;
-    flex-direction: column;
-  }
-  .services-container1 {
-    width: 100%;
-    padding-bottom: var(--dl-space-space-doubleunit);
-  }
-  .services-container3 {
-    width: 100%;
-    padding-bottom: var(--dl-space-space-doubleunit);
-  }
-}
 @media(max-width: 479px) {
   .services-text2 {
     text-align: center;

@@ -48,6 +48,7 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-fiveunits);
   align-items: flex-start;
   flex-direction: column;
 }
@@ -55,50 +56,48 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-self: center;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twoandhalf);
+  border-radius: var(--dl-radius-radius-radius50);
+  padding-right: var(--dl-space-space-twoandhalf);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-twoandhalf);
+  background-color: var(--dl-color-pimary-900);
 }
 .contactos-text {
+  color: var(--dl-color-secondary-400);
   align-self: center;
 }
 .contactos-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: flex-start;
-}
-.contactos-localizao {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
-.contactos-icon03 {
-  width: 24px;
-  height: 24px;
-}
-.contactos-text01 {
-  text-transform: none;
+  margin-top: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius50);
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: column;
 }
 .contactos-link {
   display: contents;
 }
-.contactos-telefone {
+.contactos-localizao {
   flex: 0 0 auto;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   text-decoration: none;
 }
-.contactos-icon05 {
-  width: 24px;
-  height: 24px;
+.contactos-icon03 {
+  fill: var(--dl-color-secondary-400);
+  width: 20px;
+  height: 20px;
+  align-self: center;
 }
-.contactos-text04 {
+.contactos-text01 {
+  color: var(--dl-color-secondary-500);
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
 }
 .contactos-link1 {
@@ -107,150 +106,89 @@
 .contactos-telemvel {
   flex: 0 0 auto;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   text-decoration: none;
 }
-.contactos-icon07 {
-  width: 24px;
-  height: 24px;
+.contactos-icon05 {
+  fill: var(--dl-color-secondary-400);
+  width: 20px;
+  height: 20px;
+  align-self: center;
 }
-.contactos-text06 {
+.contactos-text04 {
+  color: var(--dl-color-secondary-500);
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
 }
 .contactos-link2 {
   display: contents;
 }
-.contactos-email {
+.contactos-telefone {
   flex: 0 0 auto;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   text-decoration: none;
 }
-.contactos-icon09 {
-  width: 24px;
-  height: 24px;
+.contactos-icon07 {
+  fill: var(--dl-color-secondary-400);
+  width: 20px;
+  height: 20px;
+  align-self: center;
 }
-.contactos-text08 {
+.contactos-text06 {
+  color: var(--dl-color-secondary-500);
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
 }
 .contactos-link3 {
   display: contents;
 }
+.contactos-email {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+}
+.contactos-icon09 {
+  fill: var(--dl-color-secondary-400);
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.contactos-text08 {
+  color: var(--dl-color-secondary-500);
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+  text-transform: none;
+}
+.contactos-link4 {
+  display: contents;
+}
 .contactos-horrio {
   flex: 0 0 auto;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   text-decoration: none;
 }
 .contactos-icon11 {
-  width: 24px;
-  height: 24px;
+  fill: var(--dl-color-secondary-400);
+  width: 20px;
+  height: 20px;
+  align-self: center;
 }
 .contactos-text10 {
+  color: var(--dl-color-secondary-500);
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
-}
-@media(max-width: 1200px) {
-  .contactos-container2 {
-    margin-top: var(--dl-space-space-fiveunits);
-    padding-top: var(--dl-space-space-unit);
-    padding-left: var(--dl-space-space-twoandhalf);
-    border-radius: var(--dl-radius-radius-radius50);
-    padding-right: var(--dl-space-space-twoandhalf);
-    padding-bottom: var(--dl-space-space-twoandhalf);
-    background-color: var(--dl-color-pimary-800);
-  }
-  .contactos-text {
-    color: var(--dl-color-secondary-400);
-  }
-  .contactos-container3 {
-    margin-top: var(--dl-space-space-halfunit);
-    margin-bottom: var(--dl-space-space-halfunit);
-    flex-direction: column;
-  }
-  .contactos-localizao {
-    width: 100%;
-    height: auto;
-    margin-left: var(--dl-space-space-halfunit);
-    flex-direction: row;
-  }
-  .contactos-icon03 {
-    fill: var(--dl-color-secondary-400);
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .contactos-text01 {
-    color: var(--dl-color-secondary-500);
-  }
-  .contactos-telefone {
-    width: 100%;
-    height: auto;
-    margin-left: var(--dl-space-space-halfunit);
-    flex-direction: row;
-  }
-  .contactos-icon05 {
-    fill: var(--dl-color-secondary-400);
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .contactos-text04 {
-    color: var(--dl-color-secondary-500);
-  }
-  .contactos-telemvel {
-    width: 100%;
-    height: auto;
-    margin-left: var(--dl-space-space-halfunit);
-    flex-direction: row;
-  }
-  .contactos-icon07 {
-    fill: var(--dl-color-secondary-400);
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .contactos-text06 {
-    color: var(--dl-color-secondary-500);
-  }
-  .contactos-email {
-    width: 100%;
-    height: auto;
-    margin-left: var(--dl-space-space-halfunit);
-    flex-direction: row;
-  }
-  .contactos-icon09 {
-    fill: var(--dl-color-secondary-400);
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .contactos-text08 {
-    color: var(--dl-color-secondary-500);
-  }
-  .contactos-horrio {
-    width: 100%;
-    height: auto;
-    margin-left: var(--dl-space-space-halfunit);
-    flex-direction: row;
-  }
-  .contactos-icon11 {
-    fill: var(--dl-color-secondary-400);
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .contactos-text10 {
-    color: var(--dl-color-secondary-500);
-  }
 }

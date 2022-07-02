@@ -169,12 +169,3 @@
 .quemsomos-text6:hover {
   color: var(--dl-color-pimary-300);
 }
-@media(max-width: 991px) {
-  .quemsomos-container02 {
-    flex-direction: column;
-  }
-  .quemsomos-container03 {
-    margin-top: var(--dl-space-space-doubleunit);
-    margin-bottom: var(--dl-space-space-doubleunit);
-  }
-}

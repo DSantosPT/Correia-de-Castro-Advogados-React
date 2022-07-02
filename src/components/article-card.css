@@ -70,12 +70,3 @@
 .article-card-text3 {
   color: var(--dl-color-secondary-500);
 }
-@media(max-width: 991px) {
-  .article-card-container {
-    flex-direction: column;
-  }
-  .article-card-image {
-    width: 100%;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}

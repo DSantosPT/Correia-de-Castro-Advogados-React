@@ -38,9 +38,3 @@
 }
 
 
-@media(max-width: 991px) {
-  .hero-text {
-    padding-left: var(--dl-space-space-tripleunit);
-    padding-right: var(--dl-space-space-tripleunit);
-  }
-}

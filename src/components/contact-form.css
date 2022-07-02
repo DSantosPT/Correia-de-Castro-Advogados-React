@@ -158,14 +158,6 @@
 .contact-form-root-class-name1 {
   align-self: center;
 }
-@media(max-width: 767px) {
-  .contact-form-form {
-    width: 100%;
-  }
-  .contact-form-form1 {
-    width: 100%;
-  }
-}
 @media(max-width: 479px) {
   .contact-form-text {
     text-align: center;
