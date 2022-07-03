@@ -36,21 +36,21 @@ const TeamElement1 = (props) => {
 
 TeamElement1.defaultProps = {
   rootClassName: '',
-  Imagem: '/playground_assets/team2-1200w.jpg',
   Nome: 'Jenna Stones',
+  Imagem: '/playground_assets/team2-1200w.jpg',
+  Formacao: 'University of Computer Science',
   Descricao:
     'An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.',
   Cargo: 'Solution Manager - Creative Tim Officer',
-  Formacao: 'University of Computer Science',
 }
 
 TeamElement1.propTypes = {
   rootClassName: PropTypes.string,
-  Imagem: PropTypes.string,
   Nome: PropTypes.string,
+  Imagem: PropTypes.string,
+  Formacao: PropTypes.string,
   Descricao: PropTypes.string,
   Cargo: PropTypes.string,
-  Formacao: PropTypes.string,
 }
 
 export default TeamElement1

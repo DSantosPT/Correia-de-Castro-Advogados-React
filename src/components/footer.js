@@ -50,8 +50,8 @@ const Footer = (props) => {
       <div className="footer-container08">
         <div className="footer-container09">
           <img
-            src={props.image_src}
             alt={props.image_alt}
+            src={props.image_src}
             className="footer-image"
           />
         </div>
@@ -82,13 +82,13 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   image_alt: 'image',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
 }
 
 Footer.propTypes = {
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
 export default Footer
