@@ -3,23 +3,30 @@
   position: relative;
   flex-direction: column;
 }
+.contact-form-form {
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: var(--dl-color-secondary-300);
+}
 .contact-form-text {
-  color: var(--dl-color-secondary-400);
+  color: var(--dl-color-pimary-900);
   font-size: 1.5rem;
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 700;
   line-height: 2rem;
+  text-transform: uppercase;
 }
 .contact-form-text1 {
-  color: rgba(100,116,139,1);
+  color: var(--dl-color-pimary-700);
 }
 .contact-form-text2 {
-  color: rgba(100,116,139,1);
+  color: var(--dl-color-pimary-800);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .contact-form-textinput {
-  color: rgba(148, 163, 184, 1);
+  color: var(--dl-color-secondary-100);
   width: 100%;
   outline: 0;
   padding: var(--dl-space-space-triplequarter);
@@ -33,13 +40,13 @@
   box-shadow: 0 0 0 2px#4AA4E3;
 }
 .contact-form-text3 {
-  color: rgba(100,116,139,1);
+  color: var(--dl-color-pimary-800);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .contact-form-textinput1 {
-  color: rgba(148, 163, 184, 1);
+  color: var(--dl-color-secondary-100);
   width: 100%;
   outline: 0;
   padding: var(--dl-space-space-triplequarter);
@@ -53,13 +60,13 @@
   box-shadow: 0 0 0 2px#4AA4E3;
 }
 .contact-form-text4 {
-  color: rgba(100,116,139,1);
+  color: var(--dl-color-pimary-800);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .contact-form-textinput2 {
-  color: rgba(148, 163, 184, 1);
+  color: var(--dl-color-secondary-100);
   width: 100%;
   outline: 0;
   padding: var(--dl-space-space-triplequarter);
@@ -73,13 +80,13 @@
   box-shadow: 0 0 0 2px#4AA4E3;
 }
 .contact-form-text5 {
-  color: rgba(100,116,139,1);
+  color: var(--dl-color-pimary-800);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .contact-form-textarea {
-  color: rgba(148, 163, 184, 1);
+  color: var(--dl-color-secondary-100);
   width: 100%;
   outline: 0;
   padding: var(--dl-space-space-triplequarter);

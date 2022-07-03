@@ -16,117 +16,152 @@
   width: auto;
   height: auto;
   display: flex;
+  margin-top: 0.35rem;
   transition: 0.3s;
   align-items: flex-start;
+  margin-bottom: 0.35rem;
   text-decoration: none;
 }
 
 .contact-links-icon {
-  fill: var(--dl-color-secondary-500);
+  fill: var(--dl-color-pimary-900);
   width: 20px;
   height: 20px;
   align-self: center;
 }
 .contact-links-text {
   fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
   align-self: center;
   transition: 0.3s;
   margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
 }
 .contact-links-text:hover {
-  color: var(--dl-color-secondary-300);
+  color: var(--dl-color-pimary-700);
 }
-.contact-links-link1 {
-  display: contents;
-}
-.contact-links-telemvel {
+.contact-links-horrio {
   flex: 0 0 auto;
   height: auto;
   display: flex;
+  margin-top: 0.35rem;
   align-items: flex-start;
+  margin-bottom: 0.35rem;
   text-decoration: none;
 }
 .contact-links-icon02 {
-  fill: var(--dl-color-secondary-500);
+  fill: var(--dl-color-pimary-900);
   width: 20px;
   height: 20px;
   align-self: center;
 }
 .contact-links-text03 {
   fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
   align-self: center;
   margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
+}
+.contact-links-link1 {
+  display: contents;
+}
+.contact-links-telemvel {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 0.35rem;
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-bottom: 0.35rem;
+  text-decoration: none;
+}
+
+.contact-links-icon04 {
+  fill: var(--dl-color-pimary-900);
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.contact-links-text06 {
+  fill: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
+  align-self: center;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-halfunit);
+  text-transform: none;
+}
+.contact-links-text06:hover {
+  color: var(--dl-color-pimary-700);
 }
 .contact-links-link2 {
   display: contents;
 }
 .contact-links-telefone {
   flex: 0 0 auto;
+  width: auto;
   height: auto;
   display: flex;
+  margin-top: 0.35rem;
+  transition: 0.3s;
   align-items: flex-start;
+  margin-bottom: 0.35rem;
   text-decoration: none;
 }
-.contact-links-icon04 {
-  fill: var(--dl-color-secondary-500);
+
+.contact-links-icon06 {
+  fill: var(--dl-color-pimary-900);
   width: 20px;
   height: 20px;
   align-self: center;
 }
-.contact-links-text05 {
+.contact-links-text08 {
   fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
   align-self: center;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
+}
+.contact-links-text08:hover {
+  color: var(--dl-color-pimary-700);
 }
 .contact-links-link3 {
   display: contents;
 }
 .contact-links-email {
   flex: 0 0 auto;
+  width: auto;
   height: auto;
   display: flex;
+  margin-top: 0.35rem;
+  transition: 0.3s;
   align-items: flex-start;
+  margin-bottom: 0.35rem;
   text-decoration: none;
 }
-.contact-links-icon06 {
-  fill: var(--dl-color-secondary-500);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-}
-.contact-links-text07 {
-  fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  text-transform: none;
-}
-.contact-links-horrio {
-  flex: 0 0 auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-}
+
 .contact-links-icon08 {
-  fill: var(--dl-color-secondary-500);
+  fill: var(--dl-color-pimary-900);
   width: 20px;
   height: 20px;
   align-self: center;
 }
-.contact-links-text09 {
+.contact-links-text10 {
   fill: var(--dl-color-secondary-500);
-  color: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
   align-self: center;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-halfunit);
   text-transform: none;
+}
+.contact-links-text10:hover {
+  color: var(--dl-color-pimary-700);
 }
 .contact-links-root-class-name {
-  width: auto;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.contact-links-root-class-name1 {
+  margin-bottom: 0px;
 }

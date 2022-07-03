@@ -11,7 +11,7 @@ const ContactForm = (props) => {
         id="contact-form"
         action="https://getform.io/f/eaf82634-08d9-4b47-8d4c-1e1ce820a8ab"
         method="POST"
-        className="card-content"
+        className="contact-form-form card-content"
       >
         <h1 className="contact-form-text">{props.heading1}</h1>
         <span className="contact-form-text1 textXL">{props.text1}</span>

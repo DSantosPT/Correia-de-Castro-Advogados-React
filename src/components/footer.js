@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import PropTypes from 'prop-types'
 
 import ContactLinks from './contact-links'
 import './footer.css'
@@ -11,7 +14,7 @@ const Footer = (props) => {
           <h1 className="footer-text textXL">
             <span>Obrigado pela visita</span>
           </h1>
-          <span className="footer-text02">
+          <span className="footer-text2">
             <span>Aguardamos o seu contacto</span>
           </span>
           <div className="footer-container03">
@@ -43,30 +46,49 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div className="footer-container08">
-          <div className="footer-container09">
-            <span className="footer-text04 textXS">USEFUL LINK</span>
-            <span className="footer-text05 textSM">About Us</span>
-            <span className="footer-text06 textSM">Blog</span>
-            <span className="footer-text07 textSM">Github</span>
-            <span className="footer-text08 textSM">Free Products</span>
-          </div>
-          <div className="footer-container10">
-            <span className="footer-text09 textXS">OTHER RESOURCES</span>
-            <span className="footer-text10 textSM">License</span>
-            <span className="footer-text11 textSM">Terms &amp; Conditions</span>
-            <span className="footer-text12 textSM">Privacy Policy</span>
-            <span className="footer-text13 textSM">Contact Us</span>
-          </div>
+      </div>
+      <div className="footer-container08">
+        <div className="footer-container09">
+          <img
+            src={props.image_src}
+            alt={props.image_alt}
+            className="footer-image"
+          />
+        </div>
+        <div className="footer-container10">
+          <ContactLinks rootClassName="contact-links-root-class-name"></ContactLinks>
+        </div>
+        <div className="footer-container11">
+          <Link to="/" className="footer-navlink">
+            Início
+          </Link>
+          <Link to="/quemsomos" className="footer-navlink1">
+            Quem Somos
+          </Link>
+          <Link to="/servicos" className="footer-navlink2">
+            Serviços
+          </Link>
+          <Link to="/contactos" className="footer-navlink3">
+            Contactos
+          </Link>
         </div>
       </div>
-      <ContactLinks rootClassName="contact-links-root-class-name"></ContactLinks>
-      <div className="footer-container11"></div>
-      <span className="footer-text14 textSM">
+      <div className="footer-container12"></div>
+      <span className="footer-text4 textSM">
         <span>Copyright © 2022 Correia de Castro Advogados</span>
       </span>
     </div>
   )
+}
+
+Footer.defaultProps = {
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
+}
+
+Footer.propTypes = {
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default Footer
