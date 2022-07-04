@@ -1,14 +1,22 @@
 .hero-hero {
   flex: 0 0 auto;
   width: 100%;
+  height: var(--dl-size-size-herosize);
   display: flex;
   position: relative;
-  min-height: var(--dl-size-size-herosize);
   align-items: center;
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/playground_assets/photo-1-1500w.jpg");
+}
+.hero-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+  justify-content: center;
 }
 .hero-text {
   top: 0px;
@@ -45,3 +53,4 @@
 .hero-root-class-name2 {
   background-image: url("/playground_assets/contact-bg-200h.jpeg");
 }
+

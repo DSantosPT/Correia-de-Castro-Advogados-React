@@ -6,50 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.contactos-content {
-  box-shadow: 0px 0px 0px 0px #d4d4d4;
-  margin-top: -50px;
-  background-color: transparent;
-}
-.contactos-icon {
-  top: -2rem;
-  flex: 0 0 auto;
-  left: auto;
-  right: auto;
-  width: 4rem;
-  bottom: auto;
-  height: 4rem;
-  display: none;
-  position: absolute;
-  align-self: center;
-  align-items: center;
-  border-color: var(--dl-color-gray-900);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-round);
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-pimary-500);
-}
-.contactos-icon1 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-}
-.contactos-container1 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  margin-top: var(--dl-space-space-fiveunits);
-  align-items: flex-start;
-  flex-direction: column;
-}
-.contactos-container2 {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
-  border-width: 0px;
-  border-radius: 0px;
-  padding-bottom: var(--dl-space-space-unitandhalf);
-  background-color: var(--dl-color-secondary-300);
-}
 .contactos-text {
   color: var(--dl-color-pimary-900);
   font-size: 1.5rem;

@@ -11,12 +11,11 @@
   border-radius: var(--dl-radius-radius-round);
 }
 .member-details-text {
-  color: var(--dl-color-secondary-100);
+  color: var(--dl-color-pimary-900);
   text-align: center;
-  padding-top: var(--dl-space-space-unitandhalf);
 }
 .member-details-text1 {
-  color: var(--dl-color-secondary-700);
+  color: var(--dl-color-pimary-700);
   text-align: center;
   text-transform: uppercase;
 }

@@ -5,53 +5,24 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
-  background-color: #f2f5f9ff;
-}
-.quemsomos-icon {
-  top: -2rem;
-  flex: 0 0 auto;
-  left: auto;
-  right: auto;
-  width: 4rem;
-  bottom: auto;
-  height: 4rem;
-  display: flex;
-  position: absolute;
-  align-self: center;
-  align-items: center;
-  border-color: var(--dl-color-gray-900);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-round);
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-pimary-500);
-}
-.quemsomos-icon1 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
 }
 .quemsomos-container01 {
-  flex: 0 0 auto;
-  width: 100%;
   display: flex;
-  margin-top: var(--dl-space-space-fiveunits);
-  align-items: flex-start;
   flex-direction: column;
 }
 .quemsomos-container02 {
-  width: 100%;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.quemsomos-container03 {
+  width: 50%;
   display: flex;
-  max-width: 1320px;
   align-items: center;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-}
-.quemsomos-container03 {
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
 }
 .quemsomos-container04 {
   width: 50%;
@@ -74,22 +45,18 @@
   text-decoration: none;
 }
 .quemsomos-container06 {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  flex-direction: column;
-  justify-content: center;
-  text-decoration: none;
-}
-.quemsomos-container07 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
+}
+.quemsomos-container07 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .quemsomos-container08 {
   flex: 0 0 auto;
@@ -98,12 +65,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .quemsomos-container09 {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.quemsomos-container10 {
   flex: 0 0 auto;
   display: flex;
   margin-top: var(--dl-space-space-unit);

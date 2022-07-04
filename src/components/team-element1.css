@@ -1,35 +1,27 @@
 .team-element1-container {
-  width: 80%;
-  margin-top: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.team-element1-container1 {
   flex: 0 0 auto;
   width: 100%;
+  height: 100%;
   display: flex;
   align-items: flex-start;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
   flex-direction: row;
-  padding-bottom: 0px;
   justify-content: space-between;
+  background-color: var(--dl-color-secondary-300);
 }
 .team-element1-image {
-  height: 100%;
+  max-width: 300px;
   align-self: center;
-  max-height: 400px;
+  min-height: 400px;
   object-fit: cover;
 }
-.team-element1-container2 {
-  width: 100%;
+.team-element1-container1 {
   align-items: center;
 }
 .team-element1-text {
-  color: var(--dl-color-secondary-300);
-  margin-top: var(--dl-space-space-halfunit);
+  color: var(--dl-color-pimary-900);
+  text-align: center;
 }
-.team-element1-container3 {
+.team-element1-container2 {
   flex: 0 0 auto;
   display: flex;
   margin-top: var(--dl-space-space-unit);
@@ -43,10 +35,10 @@
   height: 18px;
 }
 .team-element1-text1 {
-  color: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
   margin-left: var(--dl-space-space-halfunit);
 }
-.team-element1-container4 {
+.team-element1-container3 {
   flex: 0 0 auto;
   display: flex;
   margin-top: var(--dl-space-space-unit);
@@ -60,26 +52,27 @@
   height: 18px;
 }
 .team-element1-text2 {
-  color: var(--dl-color-secondary-500);
+  color: var(--dl-color-pimary-900);
   margin-left: var(--dl-space-space-halfunit);
 }
 .team-element1-row {
   flex: 0 0 auto;
-  width: 90%;
-  height: 0.5px;
+  width: 100%;
+  height: 1px;
   display: flex;
-  opacity: 0.5;
   margin-top: var(--dl-space-space-unitandhalf);
-  align-items: flex-start;
   margin-bottom: var(--dl-space-space-unitandhalf);
   flex-direction: column;
-  background-color: var(--dl-color-gray-700);
+  background-color: var(--dl-color-gray-900);
 }
 .team-element1-text3 {
-  color: var(--dl-color-secondary-300);
+  color: var(--dl-color-pimary-900);
   width: 75%;
   font-size: 1.125rem;
   text-align: center;
   font-weight: 300;
   line-height: 1.625;
 }
+
+
+

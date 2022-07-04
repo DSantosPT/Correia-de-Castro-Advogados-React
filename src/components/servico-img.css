@@ -2,28 +2,26 @@
   width: 25%;
   height: 400px;
   display: flex;
+  opacity: 0.7;
   position: relative;
+  transition: 0.3s;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-pimary-900);
 }
+.servico-img-container:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
 .servico-img-image {
   width: 100%;
   height: 100%;
-  opacity: 0.7;
   z-index: 100;
   position: absolute;
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  transition: 0.3s;
-}
-.servico-img-image:hover {
-  opacity: 0.9;
-}
-.servico-img-link {
-  display: contents;
 }
 .servico-img-container1 {
   flex: 0 0 auto;
@@ -37,7 +35,6 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
-  text-decoration: none;
 }
 .servico-img-text {
   color: var(--dl-color-secondary-300);
@@ -61,7 +58,10 @@
   align-self: center;
   text-transform: none;
 }
-
+.servico-img-root-class-name {
+  background-size: cover;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
 
 
 
