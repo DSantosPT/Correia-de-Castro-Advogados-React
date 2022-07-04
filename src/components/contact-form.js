@@ -40,7 +40,7 @@ const ContactForm = (props) => {
         ></FormTextarea>
         <div className="contact-form-container">
           <button type="submit" className="contact-form-button button textXS">
-            <span className="">
+            <span onClick={props.submitForm} className="">
               <span className="">Enviar</span>
             </span>
           </button>
@@ -51,10 +51,12 @@ const ContactForm = (props) => {
 }
 
 ContactForm.defaultProps = {
+  submitForm: () => {},
   rootClassName: '',
 }
 
 ContactForm.propTypes = {
+  submitForm: PropTypes.func,
   rootClassName: PropTypes.string,
 }
 

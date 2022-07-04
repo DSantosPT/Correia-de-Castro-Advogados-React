@@ -140,20 +140,20 @@ const Header = (props) => {
 
 Header.defaultProps = {
   rootClassName: '',
+  heading11: 'Correia de Castro Advogados',
+  link2: 'Serviços',
   heading1: 'Correia de Castro Advogados',
   link3: 'Contactos',
   link1: 'Quem somos',
-  link2: 'Serviços',
-  heading11: 'Correia de Castro Advogados',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
+  heading11: PropTypes.string,
+  link2: PropTypes.string,
   heading1: PropTypes.string,
   link3: PropTypes.string,
   link1: PropTypes.string,
-  link2: PropTypes.string,
-  heading11: PropTypes.string,
 }
 
 export default Header

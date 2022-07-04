@@ -98,14 +98,14 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   image_alt: 'image',
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   rootClassName: '',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
 }
 
 Footer.propTypes = {
   image_alt: PropTypes.string,
-  image_src: PropTypes.string,
   rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
 export default Footer

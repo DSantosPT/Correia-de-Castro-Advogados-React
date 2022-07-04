@@ -13,21 +13,21 @@ const FormTextarea = (props) => {
         name="Mensagem"
         rows="6"
         placeholder={props.placeholder}
-        className="form-textarea-textarea textSM textarea"
+        className="form-textarea-textarea textarea textSM"
       ></textarea>
     </div>
   )
 }
 
 FormTextarea.defaultProps = {
-  text: 'MENSAGEM',
   placeholder: 'Introduza a sua mensagem',
+  text: 'MENSAGEM',
   rootClassName: '',
 }
 
 FormTextarea.propTypes = {
-  text: PropTypes.string,
   placeholder: PropTypes.string,
+  text: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
