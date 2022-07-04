@@ -19,7 +19,7 @@ const Servicos = (props) => {
           rootClassName="servico-img-root-class-name1"
         ></ServicoImg>
         <ServicoImg
-          text="Penal, Contra- ordenancional e Compliance"
+          text="Penal, Contra- ordenacional e Compliance"
           image_src="https://images.unsplash.com/photo-1587740896339-96a76170508d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGp1c3RpY2V8ZW58MHx8fHwxNjU2ODgxOTAw&amp;ixlib=rb-1.2.1&amp;w=1400"
           rootClassName="servico-img-root-class-name2"
         ></ServicoImg>
