@@ -59,5 +59,14 @@
       data-cf-beacon='{"token": "eaf06344a8624e00b9f4a86fc2d03b63"}'
     ></script>
     <!-- End Cloudflare Web Analytics -->
+
+    <script>
+      function offsetAnchor() {
+          if(location.hash.length !== 0)
+              window.scrollTo(window.scrollX, window.scrollY - 80);
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
   </body>
 </html>
