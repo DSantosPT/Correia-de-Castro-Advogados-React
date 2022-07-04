@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import Hero from '../components/hero'
 import MemberDetails from '../components/member-details'
-import TeamElement1 from '../components/team-element1'
+import TeamElement from '../components/team-element'
 import Footer from '../components/footer'
 import './quemsomos.css'
 
@@ -50,13 +50,13 @@ const Quemsomos = (props) => {
         </div>
         <div className="quemsomos-container06">
           <div id="member1" className="quemsomos-container07">
-            <TeamElement1 rootClassName="team-element1-root-class-name"></TeamElement1>
+            <TeamElement rootClassName="team-element-root-class-name"></TeamElement>
           </div>
           <div id="member2" className="quemsomos-container08">
-            <TeamElement1 rootClassName="team-element1-root-class-name1"></TeamElement1>
+            <TeamElement rootClassName="team-element-root-class-name1"></TeamElement>
           </div>
           <div id="member3" className="quemsomos-container09">
-            <TeamElement1 rootClassName="team-element1-root-class-name2"></TeamElement1>
+            <TeamElement rootClassName="team-element-root-class-name2"></TeamElement>
           </div>
         </div>
       </div>

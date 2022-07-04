@@ -3,7 +3,8 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Hero from '../components/hero'
-import ServiceCard from '../components/service-card'
+import ServiceCardLeft from '../components/service-card-left'
+import ServiceCardRight from '../components/service-card-right'
 import Footer from '../components/footer'
 import './servios.css'
 
@@ -18,47 +19,68 @@ const Servios = (props) => {
         />
       </Helmet>
       <Hero heading="Serviços" rootClassName="hero-root-class-name1"></Hero>
-      <div className="servios-container1 card">
-        <div className="servios-container2 card-content">
-          <h6 className="servios-text textSM">
-            <span>ON THE COASTLINE</span>
-          </h6>
-          <h3 className="servios-text2 healine">We are missing the summer</h3>
-          <span className="servios-text3 textXL">
-            <span className="servios-text4">
-              We&apos;re waiting for the weather to warm up so that we can go to
-              the coastline. We really miss the summertime, our second home the
-              coastline.
+      <div className="servios-container01 card">
+        <div className="servios-container02 card-content">
+          <span className="servios-text textXL">
+            <span className="servios-text1">
+              Abaixo pode ver em detalhe cada uma das áreas de serviço nas quais
+              pode contar com a Correia de Castro Advogados
             </span>
-            <br></br>
           </span>
-          <div className="servios-services">
-            <ServiceCard></ServiceCard>
-            <div className="servios-container3">
-              <div className="servios-container4">
-                <svg viewBox="0 0 1024 1024" className="servios-icon">
-                  <path d="M832 192v-128h-640v128h-192v128c0 106.038 85.958 192 192 192 20.076 0 39.43-3.086 57.62-8.802 46.174 66.008 116.608 113.796 198.38 130.396v198.406h-64c-70.694 0-128 57.306-128 128h512c0-70.694-57.306-128-128-128h-64v-198.406c81.772-16.6 152.206-64.386 198.38-130.396 18.19 5.716 37.544 8.802 57.62 8.802 106.042 0 192-85.962 192-192v-128h-192zM192 436c-63.962 0-116-52.038-116-116v-64h116v64c0 40.186 7.43 78.632 20.954 114.068-6.802 1.246-13.798 1.932-20.954 1.932zM948 320c0 63.962-52.038 116-116 116-7.156 0-14.152-0.686-20.954-1.932 13.524-35.436 20.954-73.882 20.954-114.068v-64h116v64z"></path>
-                </svg>
-              </div>
-              <h1 className="servios-text5 textXL">Grow your market</h1>
-              <span className="servios-text6">
-                Some quick example text to build on the card title and make up
-                the bulk of the card&apos;s content.
-              </span>
-            </div>
-            <div className="servios-container5">
-              <div className="servios-container6">
-                <svg viewBox="0 0 1024 1024" className="servios-icon2">
-                  <path d="M726 726v-172h-86v172h86zM554 726v-428h-84v428h84zM384 726v-300h-86v300h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"></path>
-                </svg>
-              </div>
-              <h1 className="servios-text7 textXL">Launch time</h1>
-              <span className="servios-text8">
-                Some quick example text to build on the card title and make up
-                the bulk of the card&apos;s content.
-              </span>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div className="servios-container03">
+        <div id="contencioso-juridico" className="servios-container04">
+          <ServiceCardLeft
+            Area="Contencioso Jurídico"
+            Imagem="https://images.unsplash.com/photo-1555374018-13a8994ab246?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGp1c3RpY2UlMjBoYW1tZXJ8ZW58MHx8fHwxNjU2OTYxNTQx&amp;ixlib=rb-1.2.1&amp;w=1500"
+            rootClassName="service-card-left-root-class-name"
+          ></ServiceCardLeft>
+        </div>
+        <div id="imobiliario-e-arrendamento" className="servios-container05">
+          <ServiceCardRight
+            Area="Imobiliário e Arrendamento"
+            Imagem="https://images.unsplash.com/photo-1554469384-e58fac16e23a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1aWxkaW5nfGVufDB8fHx8MTY1Njg1OTIzMQ&amp;ixlib=rb-1.2.1&amp;w=1400"
+            rootClassName="service-card-right-root-class-name"
+          ></ServiceCardRight>
+        </div>
+        <div
+          id="penal-contraordenacional-compliance"
+          className="servios-container06"
+        >
+          <ServiceCardLeft
+            Area="Penal, Contra-ordenacional e Compliance"
+            Imagem="https://images.unsplash.com/photo-1587740896339-96a76170508d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGp1c3RpY2V8ZW58MHx8fHwxNjU2ODgxOTAw&amp;ixlib=rb-1.2.1&amp;w=1400"
+            rootClassName="service-card-left-root-class-name1"
+          ></ServiceCardLeft>
+        </div>
+        <div id="societario-comercial" className="servios-container07">
+          <ServiceCardRight
+            Area="Societário e Comercial"
+            Imagem="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE5fHxtb25leXxlbnwwfHx8fDE2NTY4ODE5NTM&amp;ixlib=rb-1.2.1&amp;w=1400"
+            rootClassName="service-card-right-root-class-name1"
+          ></ServiceCardRight>
+        </div>
+        <div id="familia-menores-sucessoes" className="servios-container08">
+          <ServiceCardLeft
+            Area="Família, Menores e Sucessões"
+            Imagem="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxmYW1pbHl8ZW58MHx8fHwxNjU2ODgxOTg5&amp;ixlib=rb-1.2.1&amp;w=1400"
+            rootClassName="service-card-left-root-class-name2"
+          ></ServiceCardLeft>
+        </div>
+        <div id="trabalho" className="servios-container09">
+          <ServiceCardRight
+            Area="Trabalho"
+            Imagem="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHdvcmt8ZW58MHx8fHwxNjU2ODgyMDMw&amp;ixlib=rb-1.2.1&amp;w=1400"
+            rootClassName="service-card-right-root-class-name2"
+          ></ServiceCardRight>
+        </div>
+        <div id="registos-notariado" className="servios-container10">
+          <ServiceCardLeft
+            Area="Registos e Notariado"
+            Imagem="https://images.unsplash.com/photo-1556741533-411cf82e4e2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fHJlZ2lzdGVyfGVufDB8fHx8MTY1Njg4MjA2Mg&amp;ixlib=rb-1.2.1&amp;w=1400"
+            rootClassName="service-card-left-root-class-name3"
+          ></ServiceCardLeft>
         </div>
       </div>
       <Footer></Footer>
