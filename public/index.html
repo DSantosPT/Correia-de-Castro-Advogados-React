@@ -35,18 +35,11 @@
     <!--This is the head section-->
     <!-- <script type="text/javascript"> ... </script> -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-ZTGWYS647L"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZTGWYS647L');
-    </script>
+    <style>
+      #anchor {
+        scroll-margin-top: 80px;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -59,14 +52,5 @@
       data-cf-beacon='{"token": "eaf06344a8624e00b9f4a86fc2d03b63"}'
     ></script>
     <!-- End Cloudflare Web Analytics -->
-
-    <script>
-      function offsetAnchor() {
-          if(location.hash.length !== 0)
-              window.scrollTo(window.scrollX, window.scrollY - 80);
-      }
-      window.addEventListener("hashchange", offsetAnchor);
-      window.setTimeout(offsetAnchor, 1);
-    </script>
   </body>
 </html>
