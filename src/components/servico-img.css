@@ -27,9 +27,6 @@
   position: absolute;
   object-fit: cover;
 }
-.servico-img-link {
-  display: contents;
-}
 .servico-img-container2 {
   flex: 0 0 auto;
   display: flex;
