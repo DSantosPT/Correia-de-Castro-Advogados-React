@@ -17,7 +17,6 @@
 }
 .team-element-container1 {
   flex: 1;
-  min-width: 650px;
   align-items: center;
 }
 .team-element-text {
