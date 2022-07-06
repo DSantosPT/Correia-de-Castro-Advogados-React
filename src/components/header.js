@@ -16,13 +16,15 @@ const Header = (props) => {
           <Link to="/" className="header-text">
             <span className="">Início</span>
           </Link>
-          <span className="header-text2">
+          <Link to="/quemsomos" className="header-text2">
             <span className="">Quem somos</span>
-          </span>
-          <span className="header-text4">
+          </Link>
+          <Link to="/servicos" className="header-navlink1">
             <span className="">Serviços</span>
-          </span>
-          <span className="header-text6">{props.link3}</span>
+          </Link>
+          <Link to="/contactos" className="header-navlink2">
+            {props.link3}
+          </Link>
         </div>
       </div>
       <div data-type="BurgerMenu" className="header-burger-menu">
@@ -35,7 +37,7 @@ const Header = (props) => {
       </div>
       <div data-type="MobileMenu" className="header-mobile-menu">
         <div className="header-top">
-          <Link to="/" className="header-navlink1">
+          <Link to="/" className="header-navlink3">
             <h1 className="header-heading1 textSM">{props.heading11}</h1>
           </Link>
           <div data-type="CloseMobileMenu" className="header-close-menu">
@@ -48,7 +50,7 @@ const Header = (props) => {
           </div>
         </div>
         <div className="header-mid">
-          <Link to="/quemsomos" className="header-navlink2">
+          <Link to="/quemsomos" className="header-navlink4">
             <div className="header-container2">
               <svg viewBox="0 0 1024 1024" className="header-icon04">
                 <path
@@ -56,10 +58,10 @@ const Header = (props) => {
                   className=""
                 ></path>
               </svg>
-              <span className="header-text7 textSM">{props.link1}</span>
+              <span className="header-text5 textSM">{props.link1}</span>
             </div>
           </Link>
-          <Link to="/contactos" className="header-navlink3">
+          <Link to="/contactos" className="header-navlink5">
             <div className="header-container3">
               <svg viewBox="0 0 1024 1024" className="header-icon06">
                 <path
@@ -79,7 +81,7 @@ const Header = (props) => {
                   className=""
                 ></path>
               </svg>
-              <span className="header-text8 textSM">{props.link3}</span>
+              <span className="header-text6 textSM">{props.link3}</span>
             </div>
           </Link>
         </div>
