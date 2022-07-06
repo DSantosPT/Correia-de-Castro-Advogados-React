@@ -4,10 +4,8 @@
   height: var(--dl-size-size-herosize);
   display: flex;
   position: relative;
-  align-items: center;
   flex-direction: column;
   background-size: cover;
-  justify-content: flex-start;
 }
 .hero-container {
   flex: 0 0 auto;

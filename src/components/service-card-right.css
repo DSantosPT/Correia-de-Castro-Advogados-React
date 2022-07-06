@@ -13,7 +13,6 @@
 }
 .service-card-right-container2 {
   flex: 1;
-  min-width: 500px;
   align-items: flex-start;
   background-color: transparent;
 }

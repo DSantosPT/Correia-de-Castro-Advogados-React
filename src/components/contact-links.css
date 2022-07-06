@@ -159,8 +159,11 @@
   color: var(--dl-color-pimary-700);
 }
 .contact-links-root-class-name {
+  flex: 1;
+  margin-top: 0px;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
+  margin-bottom: 0px;
 }
 .contact-links-root-class-name1 {
   margin-bottom: 0px;
