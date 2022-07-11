@@ -60,7 +60,7 @@
               return;
 
           let href = a.getAttribute("href");
-      	if (href.includes("#")) {
+      	if (href.startsWith("#")) {
       		event.preventDefault();
       		history.pushState({}, '', href);
       	    console.log("hash!");
