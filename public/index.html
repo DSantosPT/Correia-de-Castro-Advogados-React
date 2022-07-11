@@ -29,15 +29,31 @@
     </style>
     <!--This is the head section-->
     <!-- <script type="text/javascript"> ... </script> -->
-    <style>
-      #anchor {
-         scroll-margin-top: 80px;
+
+    <script type="text/javascript">
+      window.scrollMargin = 80;
+      function offsetAnchor() {
+      	if (location.hash.length !== 0) {
+      		let position = document.querySelector(location.hash).getBoundingClientRect();
+      		window.scrollTo(window.scrollX, window.scrollY + position.top - scrollMargin);
+      	}
       }
-    </style>
+
+      document.querySelector("body").addEventListener('click', function(event) {
+      	let link = event.target.closest('a[href^="#"]');
+      	if (link) {
+      		event.preventDefault();
+      		history.pushState({}, '', link.getAttribute("href"))
+      		window.setTimeout(offsetAnchor, 0);
+      	}
+      });
+
+      window.setTimeout(offsetAnchor, 0);
+    </script>
   </head>
   <body>
     <div id="app"></div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <!-- <script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script> -->
 
     <!-- Cloudflare Web Analytics -->
     <script
