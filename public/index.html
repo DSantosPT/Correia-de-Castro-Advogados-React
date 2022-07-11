@@ -29,27 +29,6 @@
     </style>
     <!--This is the head section-->
     <!-- <script type="text/javascript"> ... </script> -->
-
-    <script type="text/javascript">
-      window.scrollMargin = 80;
-      function offsetAnchor() {
-      	if (location.hash.length !== 0) {
-      		let position = document.querySelector(location.hash).getBoundingClientRect();
-      		window.scrollTo(window.scrollX, window.scrollY + position.top - scrollMargin);
-      	}
-      }
-
-      document.querySelector("body").addEventListener('click', function(event) {
-      	let link = event.target.closest('a[href^="#"]');
-      	if (link) {
-      		event.preventDefault();
-      		history.pushState({}, '', link.getAttribute("href"))
-      		window.setTimeout(offsetAnchor, 0);
-      	}
-      });
-
-      window.setTimeout(offsetAnchor, 0);
-    </script>
   </head>
   <body>
     <div id="app"></div>
@@ -62,5 +41,30 @@
       data-cf-beacon='{"token": "eaf06344a8624e00b9f4a86fc2d03b63"}'
     ></script>
     <!-- End Cloudflare Web Analytics -->
+
+    <script type="text/javascript">
+      window.scrollMargin = 80;
+      window.delay = 25;
+      function offsetAnchor() {
+      	if (location.hash.length !== 0) {
+      		let position = document.querySelector(location.hash).getBoundingClientRect();
+      		window.scrollTo(window.scrollX, window.scrollY + position.top - scrollMargin);
+      		console.log("scrolled");
+      	}
+      }
+
+      document.querySelector("body").addEventListener('click', function(event) {
+      	let link = event.target.closest('a[href^="#"]');
+      	if (link) {
+      		event.preventDefault();
+      		history.pushState({}, '', link.getAttribute("href"))
+      		window.setTimeout(offsetAnchor, 0);
+      		console.log("link:", link);
+      	}
+      	console.log("no link!");
+      });
+
+      window.setTimeout(offsetAnchor, window.delay);
+    </script>
   </body>
 </html>
