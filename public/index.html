@@ -46,22 +46,27 @@
       window.scrollMargin = 80;
       window.delay = 25;
       function offsetAnchor() {
-      	if (location.hash.length !== 0) {
-      		let position = document.querySelector(location.hash).getBoundingClientRect();
-      		window.scrollTo(window.scrollX, window.scrollY + position.top - scrollMargin);
-      		console.log("scrolled");
-      	}
+      	let positionY = 0
+          if (location.hash.length !== 0)
+      		positionY = window.scrollY + document.querySelector(location.hash).getBoundingClientRect().top - scrollMargin;
+          window.scrollTo(window.scrollX, positionY);
+          console.log("scrolled");
       }
 
       document.querySelector("body").addEventListener('click', function(event) {
-      	let link = event.target.closest('a[href^="#"]');
-      	if (link) {
+      	console.log("event:", event);
+          let a = event.target.closest("a");
+          if (!a)
+              return;
+
+          let href = a.getAttribute("href");
+      	if (href.includes("#")) {
       		event.preventDefault();
-      		history.pushState({}, '', link.getAttribute("href"))
-      		window.setTimeout(offsetAnchor, 0);
-      		console.log("link:", link);
-      	}
-      	console.log("no link!");
+      		history.pushState({}, '', href);
+      	    console.log("hash!");
+          } else
+      	    console.log("no hash!");
+          window.setTimeout(offsetAnchor, 0);
       });
 
       window.setTimeout(offsetAnchor, window.delay);
