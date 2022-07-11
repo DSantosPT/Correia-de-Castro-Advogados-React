@@ -53,7 +53,7 @@
         }
       }
 
-      document.querySelector(document).addEventListener('click', 'a[href^="#"]', function(event) {
+      document.querySelector("body").addEventListener('click', 'a[href^="#"]', function(event) {
         window.setTimeout(function() {
           offsetAnchor();
         }, 0);
