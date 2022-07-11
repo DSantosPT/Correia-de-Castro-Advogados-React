@@ -69,18 +69,21 @@
 }
 .quemsomos-container10 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
 .quemsomos-container11 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
 .quemsomos-container12 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);

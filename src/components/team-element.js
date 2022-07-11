@@ -40,12 +40,11 @@ const TeamElement = (props) => {
 
 TeamElement.defaultProps = {
   rootClassName: '',
-  Nome: 'Jenna Stones',
+  Nome: 'Nome Apelido',
   Imagem: '/playground_assets/team2-400h.jpg',
-  Formacao: 'University of Computer Science',
-  Descricao:
-    'An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.',
-  Cargo: 'Solution Manager - Creative Tim Officer',
+  Formacao: 'Formação',
+  Descricao: 'Descrição da formação',
+  Cargo: 'Cargo',
 }
 
 TeamElement.propTypes = {

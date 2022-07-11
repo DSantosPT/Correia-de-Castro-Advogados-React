@@ -19,8 +19,8 @@ const MemberDetails = (props) => {
 }
 
 MemberDetails.defaultProps = {
-  heading11: 'WEB DEVELOPER',
-  heading1: 'Ryan Tompson',
+  heading11: 'CARGO',
+  heading1: 'Nome Apelido',
   image_alt: 'image',
   rootClassName: '',
   image_src:

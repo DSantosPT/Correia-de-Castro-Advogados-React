@@ -25,7 +25,7 @@ const Quemsomos = (props) => {
             <a href="#member1" className="quemsomos-link">
               <div className="quemsomos-container04">
                 <MemberDetails
-                  image_src="/playground_assets/team1-200h.jpg"
+                  image_src="/playground_assets/team1-400h.jpg"
                   rootClassName="member-details-root-class-name1"
                 ></MemberDetails>
               </div>
@@ -34,35 +34,33 @@ const Quemsomos = (props) => {
           <div className="quemsomos-container05">
             <a href="#member2" className="quemsomos-link1">
               <div className="quemsomos-container06">
-                <MemberDetails
-                  heading1="Romina Hadid"
-                  heading11="Marketing Specialist"
-                  image_src="/playground_assets/team2-200h.jpg"
-                ></MemberDetails>
+                <MemberDetails image_src="/playground_assets/team2-200h.jpg"></MemberDetails>
               </div>
             </a>
           </div>
           <div className="quemsomos-container07">
             <a href="#member3" className="quemsomos-link2">
               <div className="quemsomos-container08">
-                <MemberDetails
-                  heading1="Alexa Smith"
-                  heading11="UI/UX Designer"
-                  image_src="/playground_assets/team6-200h.jpg"
-                ></MemberDetails>
+                <MemberDetails image_src="/playground_assets/team6-400h.jpg"></MemberDetails>
               </div>
             </a>
           </div>
         </div>
         <div className="quemsomos-container09">
           <div id="member1" className="quemsomos-container10">
-            <TeamElement rootClassName="team-element-root-class-name"></TeamElement>
+            <TeamElement
+              Imagem="/playground_assets/team1-400h.jpg"
+              rootClassName="team-element-root-class-name"
+            ></TeamElement>
           </div>
           <div id="member2" className="quemsomos-container11">
             <TeamElement rootClassName="team-element-root-class-name1"></TeamElement>
           </div>
           <div id="member3" className="quemsomos-container12">
-            <TeamElement rootClassName="team-element-root-class-name2"></TeamElement>
+            <TeamElement
+              Imagem="/playground_assets/team6-400h.jpg"
+              rootClassName="team-element-root-class-name2"
+            ></TeamElement>
           </div>
         </div>
       </div>

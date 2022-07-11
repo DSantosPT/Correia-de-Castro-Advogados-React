@@ -43,9 +43,13 @@
     <!-- End Cloudflare Web Analytics -->
 
     <script type="text/javascript">
+      window.scrollMargin = 80;
       function offsetAnchor() {
         if (location.hash.length !== 0) {
-          window.scrollTo(window.scrollX, window.scrollY - 80);
+          let scrollY = window.scrollY;
+          let newScrollY = window.scrollY - window.scrollMargin;
+          window.scrollTo(window.scrollX, newScrollY);
+          console.log(scrollY, newScrollY, window.scrollY);
         }
       }
 
