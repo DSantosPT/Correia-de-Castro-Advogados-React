@@ -13,7 +13,7 @@ const ContactForm = (props) => {
         id="contact-form"
         action="https://getform.io/f/eaf82634-08d9-4b47-8d4c-1e1ce820a8ab"
         method="POST"
-        className=""
+        className="contact-form-form"
       >
         <h1 className="contact-form-text">Deixe-nos a sua mensagem</h1>
         <span className="contact-form-text1 textXL">

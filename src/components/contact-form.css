@@ -1,3 +1,6 @@
+.contact-form-form {
+  width: 100%;
+}
 .contact-form-text {
   color: var(--dl-color-pimary-900);
   width: auto;
