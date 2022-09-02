@@ -13,14 +13,11 @@ const Header = (props) => {
           <h1 className="header-heading">{props.heading1}</h1>
         </Link>
         <div className="header-container1">
-          <Link to="/" className="header-text">
-            <span className="">Início</span>
-          </Link>
-          <Link to="/quemsomos" className="header-text2">
-            <span className="">Quem somos</span>
-          </Link>
           <Link to="/servicos" className="header-navlink1">
-            <span className="">Serviços</span>
+            Actividade
+          </Link>
+          <Link to="/pessoas" className="header-text">
+            Pessoas
           </Link>
           <Link to="/contactos" className="header-navlink2">
             {props.link3}
@@ -50,7 +47,7 @@ const Header = (props) => {
           </div>
         </div>
         <div className="header-mid">
-          <Link to="/quemsomos" className="header-navlink4">
+          <Link to="/pessoas" className="header-navlink4">
             <div className="header-container2">
               <svg viewBox="0 0 1024 1024" className="header-icon04">
                 <path
@@ -58,7 +55,7 @@ const Header = (props) => {
                   className=""
                 ></path>
               </svg>
-              <span className="header-text5 textSM">{props.link1}</span>
+              <span className="header-text1 textSM">{props.link1}</span>
             </div>
           </Link>
           <Link to="/contactos" className="header-navlink5">
@@ -81,7 +78,7 @@ const Header = (props) => {
                   className=""
                 ></path>
               </svg>
-              <span className="header-text6 textSM">{props.link3}</span>
+              <span className="header-text2 textSM">{props.link3}</span>
             </div>
           </Link>
         </div>

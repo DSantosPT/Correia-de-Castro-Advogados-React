@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import Servios from './views/servios'
-import Quemsomos from './views/quemsomos'
+import Actividade from './views/actividade'
+import Pessoas from './views/pessoas'
 import Home from './views/home'
 import Contactos from './views/contactos'
 
@@ -12,10 +12,10 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route exact component={Servios} path="/servicos" />
-        <Route exact component={Quemsomos} path="/quemsomos" />
-        <Route exact component={Home} path="/" />
-        <Route exact component={Contactos} path="/contactos" />
+        <Route component={Actividade} exact path="/servicos" />
+        <Route component={Pessoas} exact path="/pessoas" />
+        <Route component={Home} exact path="/" />
+        <Route component={Contactos} exact path="/contactos" />
       </div>
     </Router>
   )

@@ -23,7 +23,7 @@ const Footer = (props) => {
           <Link to="/" className="footer-navlink">
             Início
           </Link>
-          <Link to="/quemsomos" className="footer-navlink1">
+          <Link to="/pessoas" className="footer-navlink1">
             Quem Somos
           </Link>
           <Link to="/servicos" className="footer-navlink2">

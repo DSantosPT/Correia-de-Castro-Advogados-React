@@ -16,7 +16,6 @@
   background-color: var(--dl-color-pimary-900);
 }
 .servico-img-container1:hover {
-  cursor: pointer;
   opacity: 1;
 }
 .servico-img-image {
@@ -59,6 +58,7 @@
 }
 .servico-img-text1 {
   color: var(--dl-color-secondary-300);
+  display: none;
   align-self: center;
   text-transform: none;
 }
