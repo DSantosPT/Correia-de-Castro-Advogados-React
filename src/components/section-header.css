@@ -1,0 +1,27 @@
+.section-header-sobre-ns {
+  padding: var(--dl-space-space-halfunit);
+  position: relative;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.section-header-text {
+  color: var(--dl-color-pimary-900);
+  font-size: 3rem;
+}
+
+
+
+
+@media(max-width: 991px) {
+  .section-header-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .section-header-sobre-ns {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .section-header-text {
+    text-align: center;
+  }
+}

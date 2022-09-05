@@ -3,7 +3,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
-import Servicos from '../components/servicos'
+import SectionHeader from '../components/section-header'
+import PageSobreNos from '../components/page-sobre-nos'
+import PageActividade from '../components/page-actividade'
+import PagePessoas from '../components/page-pessoas'
+import PageContactos from '../components/page-contactos'
 import Footer from '../components/footer'
 import './home.css'
 
@@ -16,11 +20,21 @@ const Home = (props) => {
       </Helmet>
       <div className="home-hero">
         <div className="home-bg"></div>
-        <Header></Header>
+        <Header>
+          <a href="#actividade" className="home-link">
+            Actividade
+          </a>
+          <a href="#pessoas" className="home-text">
+            Pessoas
+          </a>
+          <a href="#contactos" className="home-link1">
+            Contactos
+          </a>
+        </Header>
         <div className="home-container1">
           <div className="home-container2">
-            <h1 className="home-text">Correia de Castro Advogados</h1>
-            <span className="home-text01">
+            <h1 className="home-text1">Correia de Castro Advogados</h1>
+            <span className="home-text2">
               <span>Prestamos apoio jurídico em várias áreas</span>
               <span></span>
             </span>
@@ -33,30 +47,32 @@ const Home = (props) => {
         </div>
       </div>
       <div className="card">
-        <div className="card-content home-sobre-ns">
-          <h1 className="home-text04">
-            <span>Sobre Nós</span>
-            <br></br>
-          </h1>
-          <span className="home-text07">
-            <span>
-              Escritório de raiz familiar desde 1987, exerce as suas funções,
-              preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e
-              S. M. Feira. Alia o que de melhor tem a tradição às exigências do
-              mundo atual
-            </span>
-            <span>.</span>
-            <br></br>
-          </span>
-        </div>
-        <div className="home-servios card-content">
-          <h1 className="home-text11">Actividade</h1>
-          <span className="home-text12">
-            Na Correia de Castro Advogados temos uma equipa especializada em
-            diversas áreas para lhe prestar todo o apoio que necessita.
-          </span>
-          <Servicos></Servicos>
-        </div>
+        <SectionHeader
+          heading="Sobre nós"
+          rootClassName="section-header-root-class-name1"
+        ></SectionHeader>
+        <PageSobreNos></PageSobreNos>
+      </div>
+      <div id="actividade" className="card">
+        <SectionHeader
+          heading="Actividade"
+          rootClassName="section-header-root-class-name"
+        ></SectionHeader>
+        <PageActividade rootClassName="page-actividade-root-class-name"></PageActividade>
+      </div>
+      <div id="pessoas" className="card">
+        <SectionHeader
+          heading="Pessoas"
+          rootClassName="section-header-root-class-name2"
+        ></SectionHeader>
+        <PagePessoas rootClassName="page-pessoas-root-class-name"></PagePessoas>
+      </div>
+      <div id="contactos" className="card">
+        <SectionHeader
+          heading="Contactos e Localização"
+          rootClassName="section-header-root-class-name3"
+        ></SectionHeader>
+        <PageContactos rootClassName="page-contactos-root-class-name"></PageContactos>
       </div>
       <Footer></Footer>
     </div>

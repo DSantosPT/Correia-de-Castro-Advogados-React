@@ -6,17 +6,3 @@
   align-items: center;
   flex-direction: column;
 }
-.contactos-text {
-  color: var(--dl-color-pimary-900);
-  font-size: 1.5rem;
-  align-self: flex-start;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2rem;
-  text-transform: uppercase;
-}
-@media(max-width: 479px) {
-  .contactos-text {
-    text-align: left;
-  }
-}

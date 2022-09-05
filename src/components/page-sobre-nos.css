@@ -1,0 +1,50 @@
+.page-sobre-nos-section1 {
+  position: relative;
+  padding-bottom: 0px;
+}
+.page-sobre-nos-text {
+  color: var(--dl-color-pimary-900);
+  width: 70%;
+  font-size: 1.15rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.page-sobre-nos-servios {
+  display: none;
+  margin-top: var(--dl-space-space-doubleunit);
+}
+.page-sobre-nos-text4 {
+  color: var(--dl-color-pimary-900);
+  font-size: 3rem;
+}
+.page-sobre-nos-text5 {
+  color: var(--dl-color-pimary-900);
+  width: 70%;
+  font-size: 1.15rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .page-sobre-nos-text {
+    text-align: center;
+  }
+  .page-sobre-nos-text4 {
+    text-align: center;
+  }
+  .page-sobre-nos-text5 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .page-sobre-nos-sobre-ns {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .page-sobre-nos-servios {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .page-sobre-nos-text4 {
+    text-align: center;
+  }
+}

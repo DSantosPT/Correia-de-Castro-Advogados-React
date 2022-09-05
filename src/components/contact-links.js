@@ -25,7 +25,7 @@ const ContactLinks = (props) => {
           </svg>
           <h1 className="contact-links-text textMD">
             <span className="">
-              Avenida da República 740º, 2º-s 21,
+              Avenida da República 740º, 2º piso - sala 21,
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',

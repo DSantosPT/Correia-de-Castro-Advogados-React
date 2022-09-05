@@ -19,7 +19,7 @@ const TeamElement = (props) => {
 TeamElement.defaultProps = {
   rootClassName: '',
   Nome: 'Nome Apelido',
-  Imagem: '/playground_assets/team2-400h.jpg',
+  Imagem: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
 }
 
 TeamElement.propTypes = {
