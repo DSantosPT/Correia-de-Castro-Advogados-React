@@ -6,6 +6,8 @@
 .section-header-text {
   color: var(--dl-color-pimary-900);
   font-size: 3rem;
+  align-self: center;
+  text-align: center;
 }
 
 

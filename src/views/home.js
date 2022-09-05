@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -74,7 +75,17 @@ const Home = (props) => {
         ></SectionHeader>
         <PageContactos rootClassName="page-contactos-root-class-name"></PageContactos>
       </div>
-      <Footer></Footer>
+      <Footer>
+        <Link to="/pessoas" className="home-navlink">
+          Pessoas
+        </Link>
+        <Link to="/servicos" className="home-navlink1">
+          Actividade
+        </Link>
+        <Link to="/contactos" className="home-navlink2">
+          Contactos
+        </Link>
+      </Footer>
     </div>
   )
 }

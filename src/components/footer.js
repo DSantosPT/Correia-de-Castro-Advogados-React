@@ -20,16 +20,14 @@ const Footer = (props) => {
           className=""
         ></ContactLinks>
         <div className="footer-container2">
-          <Link to="/" className="footer-navlink">
-            Início
+          {props.children}
+          <Link to="/pessoas" className="footer-navlink">
+            Pessoas
           </Link>
-          <Link to="/pessoas" className="footer-navlink1">
-            Quem Somos
+          <Link to="/servicos" className="footer-navlink1">
+            Actividade
           </Link>
-          <Link to="/servicos" className="footer-navlink2">
-            Serviços
-          </Link>
-          <Link to="/contactos" className="footer-navlink3">
+          <Link to="/contactos" className="footer-navlink2">
             Contactos
           </Link>
         </div>
