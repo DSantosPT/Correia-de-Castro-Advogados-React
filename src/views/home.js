@@ -34,8 +34,8 @@ const Home = (props) => {
         </Header>
         <div className="home-container1">
           <div className="home-container2">
-            <h1 className="home-text1">Correia de Castro Advogados</h1>
-            <span className="home-text2">
+            <h1 className="home-text01">Correia de Castro Advogados</h1>
+            <span className="home-text02">
               <span>Prestamos apoio jurídico em várias áreas</span>
               <span></span>
             </span>
@@ -76,16 +76,44 @@ const Home = (props) => {
         <PageContactos rootClassName="page-contactos-root-class-name"></PageContactos>
       </div>
       <Footer>
-        <Link to="/pessoas" className="home-navlink">
+        <a href="#pessoas" className="home-link2">
           Pessoas
-        </Link>
-        <Link to="/servicos" className="home-navlink1">
+        </a>
+        <a href="#actividade" className="home-link3">
           Actividade
-        </Link>
-        <Link to="/contactos" className="home-navlink2">
+        </a>
+        <a href="#contactos" className="home-link4">
           Contactos
-        </Link>
+        </a>
       </Footer>
+      <div className="home-container7">
+        <span className="home-text05">
+          <span>
+            Este site utiliza cookies que se destinam a otimizar a sua
+            experiência de navegação. Ao utilizá-lo, está a concordar com a
+            nossa
+          </span>
+          <br></br>
+        </span>
+        <span className="home-text08">
+          <span>Política de Privacidade</span>
+          <br></br>
+        </span>
+      </div>
+      <div className="home-container8">
+        <span className="home-text11">
+          <span>
+            Este site utiliza cookies que se destinam a otimizar a sua
+            experiência de navegação. Ao utilizá-lo, está a concordar com a
+            nossa
+          </span>
+          <br></br>
+        </span>
+        <Link to="/cookies" className="home-text14">
+          <span>Política de Privacidade</span>
+          <br></br>
+        </Link>
+      </div>
     </div>
   )
 }

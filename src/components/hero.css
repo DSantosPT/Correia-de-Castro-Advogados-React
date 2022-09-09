@@ -52,3 +52,7 @@
   background-image: url("/playground_assets/contact-bg-200h.jpeg");
 }
 
+.hero-root-class-name4 {
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1586281380426-f644f2dc6ada?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1fHxwcml2YWN5JTIwcG9saWN5fGVufDB8fHx8MTY2Mjc2NjU2NQ&ixlib=rb-1.2.1&w=1500');
+}

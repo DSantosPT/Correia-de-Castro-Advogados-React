@@ -2,36 +2,44 @@
   position: relative;
   padding-bottom: 0px;
 }
+.page-sobre-nos-sobre-ns {
+  align-items: center;
+  justify-content: center;
+}
 .page-sobre-nos-text {
   color: var(--dl-color-pimary-900);
   width: 70%;
   font-size: 1.15rem;
   text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
 }
 .page-sobre-nos-servios {
   display: none;
   margin-top: var(--dl-space-space-doubleunit);
 }
-.page-sobre-nos-text4 {
+.page-sobre-nos-text1 {
   color: var(--dl-color-pimary-900);
   font-size: 3rem;
 }
-.page-sobre-nos-text5 {
+.page-sobre-nos-text2 {
   color: var(--dl-color-pimary-900);
   width: 70%;
   font-size: 1.15rem;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
+.page-sobre-nos-root-class-name {
+  width: 100%;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+}
 @media(max-width: 991px) {
   .page-sobre-nos-text {
     text-align: center;
   }
-  .page-sobre-nos-text4 {
+  .page-sobre-nos-text1 {
     text-align: center;
   }
-  .page-sobre-nos-text5 {
+  .page-sobre-nos-text2 {
     text-align: center;
   }
 }
@@ -44,7 +52,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .page-sobre-nos-text4 {
+  .page-sobre-nos-text1 {
     text-align: center;
   }
 }

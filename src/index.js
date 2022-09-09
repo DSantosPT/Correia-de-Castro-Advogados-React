@@ -7,6 +7,7 @@ import Actividade from './views/actividade'
 import Pessoas from './views/pessoas'
 import Home from './views/home'
 import Contactos from './views/contactos'
+import Cookies from './views/cookies'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route component={Pessoas} exact path="/pessoas" />
         <Route component={Home} exact path="/" />
         <Route component={Contactos} exact path="/contactos" />
+        <Route component={Cookies} exact path="/cookies" />
       </div>
     </Router>
   )

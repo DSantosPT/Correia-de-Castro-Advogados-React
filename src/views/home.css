@@ -81,11 +81,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text1 {
+.home-text01 {
   color: var(--dl-color-gray-white);
   text-align: center;
 }
-.home-text2 {
+.home-text02 {
   color: var(--dl-color-gray-900);
   max-width: 600px;
   text-align: center;
@@ -100,7 +100,7 @@
   position: absolute;
   object-fit: cover;
 }
-.home-navlink {
+.home-link2 {
   color: var(--dl-color-pimary-900);
   font-size: 1rem;
   font-style: normal;
@@ -112,7 +112,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-navlink1 {
+.home-link3 {
   color: var(--dl-color-pimary-900);
   font-size: 1rem;
   font-style: normal;
@@ -124,7 +124,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-navlink2 {
+.home-link4 {
   color: var(--dl-color-pimary-900);
   font-size: 1rem;
   font-style: normal;
@@ -134,11 +134,65 @@
   line-height: 1.25;
   margin-bottom: 0.35rem;
   text-transform: none;
+  text-decoration: none;
+}
+.home-container7 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.home-text05 {
+  color: #000000;
+  text-align: center;
+}
+.home-text08 {
+  color: #000000;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.home-container8 {
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.home-text11 {
+  color: var(--dl-color-pimary-800);
+  text-align: center;
+}
+.home-text14 {
+  color: var(--dl-color-pimary-800);
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 @media(max-width: 479px) {
   .home-container2 {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
+  }
+  .home-container7 {
+    height: auto;
+  }
+  .home-container8 {
+    height: auto;
   }
 }

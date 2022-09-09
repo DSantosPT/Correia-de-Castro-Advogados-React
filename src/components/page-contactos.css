@@ -11,6 +11,7 @@
   text-transform: uppercase;
 }
 
+
 @media(max-width: 479px) {
   .page-contactos-text {
     text-align: left;
