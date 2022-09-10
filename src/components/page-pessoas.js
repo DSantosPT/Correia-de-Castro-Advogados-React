@@ -22,25 +22,25 @@ const PagePessoas = (props) => {
             <div className="page-pessoas-container3">
               <ul className="page-pessoas-ul list">
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text textMD">
                     {' '}
                     Licenciado em Direito pela Faculdade de Direito da
                     Universidade de Coimbra
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text1 textMD">
                     Inscrito na Ordem dos Advogados Portugueses desde 1986.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text2 textMD">
                     Advogado com experiência na “barra” dos Tribunais, no campo
                     cível e comercial.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text3 textMD">
                     Integrou instrução de processos da L.F.P.F. e Contencioso de
                     Acidentes de Viação.
                   </span>
@@ -61,33 +61,33 @@ const PagePessoas = (props) => {
             <div className="page-pessoas-container5">
               <ul className="page-pessoas-ul1 list">
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text4 textMD">
                     {' '}
                     Licenciado em Direito pela Faculdade de Direito da
                     Universidade de Coimbra.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text5 textMD">
                     Mestre em Ciências Jurídico-Forenses pela Faculdade de
                     Direito da Universidade de Coimbra
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text6 textMD">
                     Pós graduado em Direito Fiscal das Empresas pela Faculdade
                     de Direito da Universidade de Coimbra
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text7 textMD">
                     Pós graduado em Organização e Gestão de Futebol Profissional
                     pela Escola de Direito da Universidade Católica Portuguesa -
                     Porto.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="">
+                  <span className="page-pessoas-text8 textMD">
                     Integra o escritório do Dr. Correia de Castro desde 2017
                   </span>
                 </li>

@@ -47,6 +47,7 @@
 }
 .list-item {
   display: list-item;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .button {
   color: var(--dl-color-gray-900);
