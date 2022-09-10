@@ -76,11 +76,11 @@ const Home = (props) => {
         <PageContactos rootClassName="page-contactos-root-class-name"></PageContactos>
       </div>
       <Footer>
-        <a href="#pessoas" className="home-link2">
-          Pessoas
-        </a>
-        <a href="#actividade" className="home-link3">
+        <a href="#actividade" className="home-link2">
           Actividade
+        </a>
+        <a href="#pessoas" className="home-link3">
+          Pessoas
         </a>
         <a href="#contactos" className="home-link4">
           Contactos
