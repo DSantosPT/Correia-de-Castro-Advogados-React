@@ -92,13 +92,11 @@
   text-transform: uppercase;
 }
 .home-image {
-  top: auto;
-  left: auto;
   right: 0px;
   width: 100%;
-  bottom: -1px;
+  bottom: -2px;
   position: absolute;
-  object-fit: cover;
+  object-fit: fill;
 }
 .home-link2 {
   color: var(--dl-color-pimary-900);
