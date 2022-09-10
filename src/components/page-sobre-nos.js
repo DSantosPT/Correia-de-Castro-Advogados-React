@@ -21,15 +21,15 @@ const PageSobreNos = (props) => {
 }
 
 PageSobreNos.defaultProps = {
+  rootClassName: '',
   text: 'Escritório de raiz familiar desde 1987, exerce as suas funções, preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira. Alia o que de melhor tem a tradição às exigências do mundo atual.',
   heading: 'Actividade',
-  rootClassName: '',
 }
 
 PageSobreNos.propTypes = {
+  rootClassName: PropTypes.string,
   text: PropTypes.string,
   heading: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default PageSobreNos

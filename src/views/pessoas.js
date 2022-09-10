@@ -13,8 +13,16 @@ const Pessoas = (props) => {
       <Helmet>
         <title>Pessoas - Correia de Castro Advogados</title>
         <meta
+          name="description"
+          content="Escritório de raiz familiar desde 1987, exerce as suas funções, preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira."
+        />
+        <meta
           property="og:title"
           content="Pessoas - Correia de Castro Advogados"
+        />
+        <meta
+          property="og:description"
+          content="Escritório de raiz familiar desde 1987, exerce as suas funções, preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira."
         />
       </Helmet>
       <Hero heading="Pessoas" rootClassName="hero-root-class-name"></Hero>
