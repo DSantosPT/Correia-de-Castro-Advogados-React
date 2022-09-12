@@ -9,7 +9,6 @@ const PageActividade = (props) => {
   return (
     <div className={`page-actividade-container ${props.rootClassName} `}>
       <div className="page-actividade-container1 card-content">
-        <span className="page-actividade-text textXL">{props.text}</span>
         <Servicos
           rootClassName="servicos-root-class-name"
           className=""
@@ -20,12 +19,10 @@ const PageActividade = (props) => {
 }
 
 PageActividade.defaultProps = {
-  text: 'Abaixo pode ver cada uma das áreas de serviço nas quais pode contar com a Correia de Castro Advogados',
   rootClassName: '',
 }
 
 PageActividade.propTypes = {
-  text: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
