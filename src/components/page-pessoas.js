@@ -13,7 +13,7 @@ const PagePessoas = (props) => {
           <TeamElement
             Nome="Correia de Castro"
             Cargo="Licenciado em Direito pela Faculdade de Direito da Universidade de Coimbra"
-            Imagem="/playground_assets/team1-400h.jpg"
+            Imagem="https://images2.imgbox.com/0a/a6/a2bHpYn4_o.jpeg"
             Formacao="Inscrito na Ordem dos Advogados Portugueses desde 1986."
             Descricao="Advogado com experiência na “barra” dos Tribunais, no campo cível e comercial. Integrou instrução de processos da L.F.P.F. e Contencioso de Acidentes de Viação."
             rootClassName="team-element-root-class-name"
@@ -53,7 +53,7 @@ const PagePessoas = (props) => {
           <TeamElement
             Nome="Jorge Correia de Castro"
             Cargo="Licenciado em Direito pela Faculdade de Direito da Universidade de Coimbra."
-            Imagem="/playground_assets/team1-400h.jpg"
+            Imagem="https://images2.imgbox.com/e6/51/cCWfaodh_o.jpeg"
             Descricao="Licenciado em Direito pela Faculdade de Direito da Universidade de Coimbra.  Mestre em Ciências Jurídico-Forenses pela Faculdade de Direito da Universidade de Coimbra  Pós graduado Direito Fiscal das Empresas pela Faculdade de Direito da Universidade de Coimbra  Pós graduado em Organização e Gestão de Futebol Profissional pela Escola de Direito da Universidade Católica Portuguesa- Porto.  Integra o escritório do Dr. Correia de Castro desde 2017 "
             rootClassName="team-element-root-class-name1"
             className=""
