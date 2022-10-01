@@ -22,7 +22,7 @@ const PageSobreNos = (props) => {
 
 PageSobreNos.defaultProps = {
   rootClassName: '',
-  text: 'Escritório de raiz familiar desde 1987, exerce as suas funções, preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira. Alia o que de melhor tem a tradição às exigências do mundo atual.',
+  text: 'Escritório de advogados com tradição familiar que exerce a sua função desde 1987 nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira, conciliando a experiência com as novas exigências do mundo actual.',
   heading: 'Actividade',
 }
 
