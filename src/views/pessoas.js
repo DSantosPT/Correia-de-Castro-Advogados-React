@@ -14,7 +14,7 @@ const Pessoas = (props) => {
         <title>Pessoas - Correia de Castro Advogados</title>
         <meta
           name="description"
-          content="Escritório de raiz familiar desde 1987, exerce as suas funções, preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira."
+          content="Escritório de advogados com tradição familiar que exerce a sua função desde 1987 nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira."
         />
         <meta
           property="og:title"
@@ -22,7 +22,7 @@ const Pessoas = (props) => {
         />
         <meta
           property="og:description"
-          content="Escritório de raiz familiar desde 1987, exerce as suas funções, preferencialmente, nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira."
+          content="Escritório de advogados com tradição familiar que exerce a sua função desde 1987 nos concelhos de V. N. Gaia, Porto, Espinho e S. M. Feira."
         />
       </Helmet>
       <Hero heading="Pessoas" rootClassName="hero-root-class-name"></Hero>
