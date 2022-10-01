@@ -11,7 +11,7 @@
 }
 .team-element-image {
   width: 300px;
-  filter: grayscale(1);
+  filter: grayscale(.8);
   height: 450px;
   align-self: center;
   object-fit: cover;
