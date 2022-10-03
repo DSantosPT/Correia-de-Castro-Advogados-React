@@ -98,7 +98,7 @@ const ContactLinks = (props) => {
         </div>
       </a>
       <a
-        href="mailto:Correia de Castro Advogados &lt;correia.castro58@gmail.com&gt;?subject=Contacto Website"
+        href="mailto:Correia de Castro Advogados &lt;correiadecastroadvogados@gmail.com&gt;?subject=Contacto Website"
         className="contact-links-link3"
       >
         <div className="contact-links-email">
@@ -109,7 +109,7 @@ const ContactLinks = (props) => {
             ></path>
           </svg>
           <h1 className="contact-links-text10 textMD">
-            <span className="">correia.castro58@gmail.com</span>
+            correiadecastroadvogados@gmail.com
           </h1>
         </div>
       </a>
