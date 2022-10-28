@@ -19,21 +19,38 @@ const ContactForm = (props) => {
         <span className="contact-form-text1 textXL">
           Por favor, preencha o formulário abaixo
         </span>
-        <FormInput
-          text="NOME"
-          placeholder="Introduza o seu nome"
-          className=""
-        ></FormInput>
+        <FormInput text="NOME" placeholder="Introduza o seu nome" className="">
+          <input
+            type="text"
+            placeholder="Introduza o seu nome"
+            name="Nome"
+            className="contact-form-textinput textSM input"
+          />
+        </FormInput>
         <FormInput
           text="CONTACTO"
           placeholder="Introduza o seu contacto (email / telemóvel)"
           className=""
-        ></FormInput>
+        >
+          <input
+            type="text"
+            placeholder="Introduza o seu contacto (email / telemóvel)"
+            name="Contacto"
+            className="contact-form-textinput1 textSM input"
+          />
+        </FormInput>
         <FormInput
           text="ASSUNTO"
           placeholder="Introduza o assunto"
           className=""
-        ></FormInput>
+        >
+          <input
+            type="text"
+            placeholder="Introduza o assunto"
+            name="Assunto"
+            className="contact-form-textinput2 textSM input"
+          />
+        </FormInput>
         <FormTextarea
           rootClassName="form-textarea-root-class-name"
           className=""
