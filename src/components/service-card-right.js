@@ -11,7 +11,7 @@ const ServiceCardRight = (props) => {
     >
       <div className="service-card-right-container1">
         <div className="service-card-right-container2 card-content">
-          <h3 className="service-card-right-text healine">{props.Area}</h3>
+          <h3 className="service-card-right-text Healine">{props.Area}</h3>
           <span className="service-card-right-text1">{props.Descricao}</span>
         </div>
         <img

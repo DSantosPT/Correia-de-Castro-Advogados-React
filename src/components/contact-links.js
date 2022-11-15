@@ -23,7 +23,7 @@ const ContactLinks = (props) => {
               className=""
             ></path>
           </svg>
-          <h1 className="contact-links-text textMD">
+          <h1 className="contact-links-text TextMD">
             <span className="">
               Avenida da República 740º, 2º piso - sala 21,
               <span
@@ -53,7 +53,7 @@ const ContactLinks = (props) => {
             className=""
           ></path>
         </svg>
-        <h1 className="contact-links-text03 textMD">
+        <h1 className="contact-links-text03 TextMD">
           <span className="">
             Segunda a sexta:
             <span
@@ -76,8 +76,10 @@ const ContactLinks = (props) => {
               className=""
             ></path>
           </svg>
-          <h1 className="contact-links-text06 textMD">
-            <span className="">+351 910773626</span>
+          <h1 className="contact-links-text06 TextMD">+351 910 773 626</h1>
+          <h1 className="contact-links-text07 TextMD">
+            <span className="">(chamada para a rede móvel nacional)</span>
+            <br className=""></br>
           </h1>
         </div>
       </a>
@@ -92,8 +94,10 @@ const ContactLinks = (props) => {
               className=""
             ></path>
           </svg>
-          <h1 className="contact-links-text08 textMD">
-            <span className="">+351 223753769</span>
+          <h1 className="contact-links-text10 TextMD">+351 223 753 769</h1>
+          <h1 className="contact-links-text11 TextMD">
+            <span className="">(chamada para a rede fixa nacional)</span>
+            <br className=""></br>
           </h1>
         </div>
       </a>
@@ -108,7 +112,7 @@ const ContactLinks = (props) => {
               className=""
             ></path>
           </svg>
-          <h1 className="contact-links-text10 textMD">
+          <h1 className="contact-links-text14 TextMD">
             correiadecastroadvogados@gmail.com
           </h1>
         </div>

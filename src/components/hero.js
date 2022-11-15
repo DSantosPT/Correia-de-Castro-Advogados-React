@@ -10,7 +10,7 @@ const Hero = (props) => {
     <div className={`hero-hero ${props.rootClassName} `}>
       <Header rootClassName="header-root-class-name" className=""></Header>
       <div className="hero-container">
-        <h1 className="hero-text text2XL">{props.heading}</h1>
+        <h1 className="hero-text Text2XL">{props.heading}</h1>
       </div>
       <div className="hero-bg"></div>
     </div>

@@ -12,8 +12,8 @@ const MemberDetails = (props) => {
         src={props.image_src}
         className="member-details-image"
       />
-      <h1 className="member-details-text textXL">{props.heading1}</h1>
-      <h1 className="member-details-text1 textSM">{props.heading11}</h1>
+      <h1 className="member-details-text TextXL">{props.heading1}</h1>
+      <h1 className="member-details-text1 TextSM">{props.heading11}</h1>
     </div>
   )
 }

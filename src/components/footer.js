@@ -33,7 +33,7 @@ const Footer = (props) => {
         </div>
       </div>
       <div className="footer-container3"></div>
-      <span className="footer-text textSM">
+      <span className="footer-text TextSM">
         <span className="">Copyright © 2022 Correia de Castro Advogados</span>
       </span>
     </div>

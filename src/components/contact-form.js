@@ -16,15 +16,15 @@ const ContactForm = (props) => {
         className="contact-form-form"
       >
         <h1 className="contact-form-text">Deixe-nos a sua mensagem</h1>
-        <span className="contact-form-text1 textXL">
+        <span className="contact-form-text1 TextXL">
           Por favor, preencha o formulário abaixo
         </span>
         <FormInput text="NOME" placeholder="Introduza o seu nome" className="">
           <input
             type="text"
-            placeholder="Introduza o seu nome"
             name="Nome"
-            className="contact-form-textinput textSM input"
+            placeholder="Introduza o seu nome"
+            className="contact-form-textinput TextSM input"
           />
         </FormInput>
         <FormInput
@@ -34,9 +34,9 @@ const ContactForm = (props) => {
         >
           <input
             type="text"
-            placeholder="Introduza o seu contacto (email / telemóvel)"
             name="Contacto"
-            className="contact-form-textinput1 textSM input"
+            placeholder="Introduza o seu contacto (email / telemóvel)"
+            className="contact-form-textinput1 input TextSM"
           />
         </FormInput>
         <FormInput
@@ -46,9 +46,9 @@ const ContactForm = (props) => {
         >
           <input
             type="text"
-            placeholder="Introduza o assunto"
             name="Assunto"
-            className="contact-form-textinput2 textSM input"
+            placeholder="Introduza o assunto"
+            className="contact-form-textinput2 TextSM input"
           />
         </FormInput>
         <FormTextarea
@@ -56,7 +56,7 @@ const ContactForm = (props) => {
           className=""
         ></FormTextarea>
         <div className="contact-form-container">
-          <button type="submit" className="contact-form-button button textXS">
+          <button type="submit" className="contact-form-button button TextXS">
             <span onClick={props.submitForm} className="">
               <span className="">Enviar</span>
             </span>

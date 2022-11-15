@@ -7,7 +7,7 @@ import './form-input.css'
 const FormInput = (props) => {
   return (
     <div className="form-input-container">
-      <span className="form-input-text textXS">{props.text}</span>
+      <span className="form-input-text TextXS">{props.text}</span>
       {props.children}
     </div>
   )

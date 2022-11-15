@@ -11,7 +11,7 @@ const ServicoImg = (props) => {
         <img src={props.image_src} className="servico-img-image" />
         <div className="servico-img-container2">
           <span className="servico-img-text">{props.text}</span>
-          <span className="servico-img-text1 textSM">Ver mais</span>
+          <span className="servico-img-text1 TextSM">Ver mais</span>
         </div>
       </div>
     </div>

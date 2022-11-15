@@ -9,7 +9,7 @@ const TeamElement = (props) => {
     <div className={`team-element-container ${props.rootClassName} `}>
       <img alt="image" src={props.Imagem} className="team-element-image" />
       <div className="team-element-container1 card-content">
-        <h3 className="team-element-text text2XL">{props.Nome}</h3>
+        <h3 className="team-element-text Text2XL">{props.Nome}</h3>
         {props.children}
       </div>
     </div>

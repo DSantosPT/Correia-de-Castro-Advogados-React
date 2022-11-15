@@ -14,7 +14,7 @@ const ServiceCardLeft = (props) => {
           className="service-card-left-image"
         />
         <div className="service-card-left-container2 card-content">
-          <h3 className="service-card-left-text healine">{props.Area}</h3>
+          <h3 className="service-card-left-text Healine">{props.Area}</h3>
           <span className="service-card-left-text1">{props.Descricao}</span>
         </div>
       </div>
